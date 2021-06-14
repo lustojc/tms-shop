@@ -24,10 +24,6 @@ const Content = () => {
     const [categories, setCategories] = useState([])
     const [isLoading, setIsLoading] = useState(true)
 
-
-
-
-    
     const fetchCategoties = async () => {
         const response = db.collection("categories");
         const data = await response.get();
@@ -39,21 +35,6 @@ const Content = () => {
     useEffect(() => {
         fetchCategoties()
     }, [])
-
-    // .filter((el) => el.type === "hat")
-
-
-    // [selectedCAt, setSelectedCAt] = useState()
-
-    // [].map(el => {
-    //     buttons nClick={() => {setSelectedCAt(el)}}
-    // })
-
-
-    // someArray.filter(el => el.type === selectedCAt).map(el => {
-    //     Card ...selectedCAt
-    // })
-    
 
     return (
         <>
@@ -100,14 +81,8 @@ const Content = () => {
                 </div>
 
             })}
-
-
-
         </>
     );
-
-
-
 };
 
 
