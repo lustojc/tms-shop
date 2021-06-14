@@ -1,0 +1,59 @@
+
+.main_page {
+    height: 100%;
+    margin: 145px 0 0 0;
+}
+
+.wrapper {
+    /* padding: 0 70px 0 0; */
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section_header {
+    height: auto;
+    margin: 0 0 70px;
+}
+
+.collection_nav {
+    padding: 0 0 0 105px;
+    font-size: 11px;
+    text-align: left;
+    float: left;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none outside;
+}
+
+ol ul {
+    margin: 0 0 30px;
+}
+
+.section_header ul.collection_nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.summer_sale {
+    color: white;
+    background-color: black;
+    padding: 8px 15px;
+    display: inline-block;
+    border-radius: 20px;
+    height: auto;
+    font-style: italic;
+    border: 1px solid black;
+}
+
+.archive {
+    color: #777;
+}
+
+.dp_bl {
+    display: table-row;
+}

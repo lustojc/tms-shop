@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.dp_flex {
+    display: flex;
+}
+
+.hed {
+    position: absolute;
+    left: 360px;
+    width: calc(100% - 360px);
+}

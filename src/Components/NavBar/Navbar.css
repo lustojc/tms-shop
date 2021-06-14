@@ -1,0 +1,97 @@
+body {
+    line-height: 1.5;
+    font-size: 11px;
+    font-family: Helvetica;
+    font-weight: 600;
+    
+}
+
+body a {
+    color: rgb(0, 0, 0);
+}
+.navbar {
+    position: fixed;
+    width: 290px;
+    height: 955px;
+    padding: 90px 35px 35px 35px;
+    align-items: center;
+}
+
+.navbar_wrapper {
+    width: 290px;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.wrapper_img {
+    width: 290px;
+    height: 220px;
+}
+
+.navbar_img {
+    background-image: url(https://mxdvs.co/store/static/img/mxdvs_logos/MXDVS_company-info-logo-2020.svg);
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.site-nav_link {
+    display: flex;
+    flex-direction: column;
+}
+
+.site-nav_link a {
+    padding-bottom: 15px;
+}
+
+.medium-nav_link {
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.medium-nav_link a {
+    padding-bottom: 15px;
+}
+
+.flag a {
+    display:inline-flex;
+    flex-direction: row;
+    padding-top: 35px;
+    margin: 0 auto;
+}
+
+.flag-color {
+    width: 8px;
+    height: 20px;
+    margin: 0;
+    flex-direction: column;
+}
+
+.black {
+    background: black;
+}
+
+.yellow {
+    background: #FBDE4D;
+}
+
+.red {
+    background: red;
+}
+
+.author {
+    padding-top: 10px;
+}
+
+.author a {
+    color: black;
+}
