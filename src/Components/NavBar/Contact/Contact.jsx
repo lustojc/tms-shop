@@ -42,12 +42,14 @@ const Contact = () => {
                         <input type="text" placeholder="NAME" value={name} onChange={(e)=>setName(e.target.value)}></input>
                         <input type="EMAIL" placeholder="EMAIL" value={email} onChange={(e)=>setEmail(e.target.value)}></input>
                         <input type="text" placeholder="PHONE NUMBER" value={number} onChange={(e)=>setNumber(e.target.value)}></input>
+                        <textarea placeholder="MESSAGE" className="textarea_contact" rows="6" value={message} onChange={(e)=>setMessage(e.target.value)}></textarea>
+                        <button className="contact_button">SEND</button>
                     </div>
                 </div>
                 <div>
-                    <textarea placeholder="MESSAGE" className="textarea_contact" rows="6" value={message} onChange={(e)=>setMessage(e.target.value)}></textarea>
+                    
                 </div>
-                <button className="contact_button">SEND</button>
+                
                 </form>
             </div>
 

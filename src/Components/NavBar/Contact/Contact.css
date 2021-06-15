@@ -58,13 +58,13 @@ input::-webkit-input-placeholder { color: black; }
     line-height: 1.42;
     padding: 10px 13.5px;
     position: relative;
-    left: -36.4%;
+    left: -39%;
     margin-top: 10px;
 }
 
 .textarea_contact {
     position: relative;
-    left: -36.3%;
+    left: -39%;
     width: 850px;
     border: 2px solid black;
     line-height: 1.42;
