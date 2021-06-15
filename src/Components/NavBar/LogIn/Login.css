@@ -1,0 +1,11 @@
+.singout {
+    border: 2px solid black;
+    background: white;
+    font-weight: bold;
+    color: black;
+    font-size: 11px;
+    cursor: pointer;
+    line-height: 1.42;
+    padding: 10px 13.5px;
+    margin-top: 10px;
+}

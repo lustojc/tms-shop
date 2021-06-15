@@ -17,7 +17,7 @@ const Login = () => {
             <Router>
                 <div>
                     <Switch>
-                        <Route exact path="/" component={Home} />
+                        <Route exact path="/history" component={Home} />
                         <Route exact path="/login" component={Log} />
                         <Route exact path="/signup" component={Signup} />
                     </Switch>

@@ -22,12 +22,12 @@ const PhotoArchive = () => {
     }, [])
 
     return (
-        <div className="container">
+        <div className="container_img">
             <div className="card_wrapper">
                 {photos.map((el, i) =>
-                    <div className="card">
+                    <div className="card_img">
                         <div className="item_img">
-                            <img className="img_size" alt="bottle opener" src={el.img}></img>
+                            <img className="img_size-photo" alt="bottle opener" src={el.img}></img>
                         </div>
                     </div>
                 )}

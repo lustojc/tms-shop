@@ -19,9 +19,6 @@ import ItemData from "./ItemsFilter/Femme/ItemData";
 import ItemsContext from "./Context";
 import firebase from "./Firebase"
 
-
-
-
 function App() {
 
   const [items, setItems] = useState([])
@@ -29,25 +26,17 @@ function App() {
 
     const getData = async () => {
         try {
-            
-            const { docs } = await firebase.firestore().collection("items")
-                
+            const { docs } = await firebase.firestore().collection("items")  
                 .get()
-
           setItems (docs.map(doc => ({ ...doc.data() })))
-           
-
         } catch(e) {
-            console.error(e)
-        
+            console.error(e)       
         }
     }
    
     useEffect(()=>{
         getData()
     },[])
-
-
 
   return (
     <BrowserRouter>

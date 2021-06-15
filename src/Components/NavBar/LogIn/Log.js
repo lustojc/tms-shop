@@ -12,7 +12,7 @@ const Log = ({ history }) => {
         await app
           .auth()
           .signInWithEmailAndPassword(email.value, password.value);
-        history.push("/");
+        history.push("/history");
       } catch (error) {
         alert(error);
       }
